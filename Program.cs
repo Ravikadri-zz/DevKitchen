@@ -24,7 +24,7 @@ namespace ConsoleApp2
             string serviceUrl = "https://smba.trafficmanager.net/emea/";
 
             //the upn of the user who should recieve the personal message
-            string mentionUserPrincipalName = "reader@vihandev.onmicrosoft.com";
+            string mentionUserPrincipalName = "reader@dev.onmicrosoft.com";
 
             //Office 365/Azure AD tenant id for the 
             string tenantId = "";
@@ -40,9 +40,9 @@ namespace ConsoleApp2
             dynamic jsonObject = new JObject();
             //jsonObject.givenName = "Ravi";
             //jsonObject.surname = "Chandra";
-            //jsonObject.email = "ravi@vihandev.onmicrosoft.com";
-            //jsonObject.userPrincipalName = "ravi@vihandev.onmicrosoft.com";
-            //jsonObject.tenantId = "a7b57368-7e7b-4e8b-b3c5-e3ec26cc53de";
+            //jsonObject.email = "r@vihandev123.onmicrosoft.com";
+            //jsonObject.userPrincipalName = "r@vihandev123.onmicrosoft.comm";
+            //jsonObject.tenantId = "a7b57368-7e7b-4r5r5b-b3c5-e3ec26cc53der";
             //jsonObject.userRole = "user";
 
 
@@ -50,7 +50,7 @@ namespace ConsoleApp2
             jsonObject.surname = "1";
             jsonObject.email = "reader@dev1.onmicrosoft.com";
             jsonObject.userPrincipalName = "reader@dev1.onmicrosoft.com";
-            jsonObject.tenantId = "a7b57368-7e7b-4e8b-b3c5-e3ec26cc53de";
+            jsonObject.tenantId = "a7b5tg56368-7essss7b-4e76-b3c5-e3ec26c45tr3de";
             jsonObject.userRole = "user";
 
 
