@@ -27,11 +27,11 @@ namespace ConsoleApp2
             string mentionUserPrincipalName = "reader@vihandev.onmicrosoft.com";
 
             //Office 365/Azure AD tenant id for the 
-            string tenantId = "a7b57368-7e7b-4e8b-b3c5-e3ec26cc53de";
+            string tenantId = "";
 
             //From the Bot Channel Registration
             string botClientID = "bbfc3f45-1a8d-47eb-99f5-dca58ac8a46d";
-            string botClientSecret = "KjI0_X3EP7C5-gLH-LG2iw5e8-A_t7zL-K";
+            string botClientSecret = "";
 
             var connectorClient = new ConnectorClient(new Uri(serviceUrl), new MicrosoftAppCredentials(botClientID, botClientSecret));
 
@@ -48,8 +48,8 @@ namespace ConsoleApp2
 
             jsonObject.givenName = "Reader";
             jsonObject.surname = "1";
-            jsonObject.email = "reader@vihandev.onmicrosoft.com";
-            jsonObject.userPrincipalName = "reader@vihandev.onmicrosoft.com";
+            jsonObject.email = "reader@dev1.onmicrosoft.com";
+            jsonObject.userPrincipalName = "reader@dev1.onmicrosoft.com";
             jsonObject.tenantId = "a7b57368-7e7b-4e8b-b3c5-e3ec26cc53de";
             jsonObject.userRole = "user";
 
